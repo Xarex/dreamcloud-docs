@@ -7,8 +7,9 @@ Buckets
 
 A Bucket is a mechanism for grouping objects in DreamObjects, similar to a
 folder. Unlike a folder, Buckets exist in a global namespace inside
-DreamObjects, which means that bucket names must be unique, just like a domain
-name, since they are used to create public URLs to store objects.
+DreamObjects, which means that bucket names must be unique, just like
+a domain name, since they are used to create public URLs to store
+objects.
 
 Creating a Bucket
 -----------------
@@ -35,10 +36,10 @@ Creating a Bucket
 .. note::
 
     Bucket names must include at least 3 characters and can only contain
-    lowercase characters, numbers, dashes, dots, and underscores. Also, while certain
-    symbols and symbol combinations such as dashes or double-dots are valid, they **will** break
-    DNS on your bucket name (reducing the bucket's functionality) and are not
-    recommended.
+    lowercase characters, numbers, dashes, dots, and underscores.  Also,
+    while certain symbols and symbol combinations such as dashes or
+    double-dots are valid, they **will** break DNS on your bucket name
+    (reducing the bucket's functionality) and are not recommended.
 
 Selecting a permission setting for your bucket
 ----------------------------------------------
