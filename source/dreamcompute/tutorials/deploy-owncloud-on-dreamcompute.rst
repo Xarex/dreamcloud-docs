@@ -35,6 +35,7 @@ To install MariaDB, run:
 
 .. code-block:: console
 
+    [user@server]$ sudo apt-get update
     [user@server]$ sudo apt-get install mariadb-server
 
 During installation the root database user will be setup without a password,
