@@ -81,6 +81,7 @@ and run the following:
     CREATE USER 'owncloud'@'localhost' IDENTIFIED BY 'PASSWORD';
     GRANT ALL on owncloud.* to 'owncloud'@'localhost';
     flush privileges;
+    exit
 
 where **PASSWORD** is the desired password for the ownCloud software.  This
 example uses 'owncloud' as the MySQL user name and database name for
